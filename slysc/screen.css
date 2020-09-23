@@ -1,0 +1,133 @@
+#search {
+    width: 200px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.navbar {
+background-color: black;
+}
+.btn {
+background-color: black;
+}
+.navbar-center {
+width: 100%;
+text-align: center;
+}
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(76.5, 82.5, 103.5);
+    background-image: url(images/uparrows-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+#title {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    overflow: hidden;
+    color: darkgoldenrod;
+    font-family: cursive;
+    padding-top: 5px;
+}
+#social {
+width: 200px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+#slideshow {
+float: left;
+width: 100%;
+padding: 0;
+border: none;
+margin-top: 105px;
+background-color:darkgoldenrod;
+overflow: hidden;
+background-position: center center;
+background-repeat: no-repeat;
+}
+#tabimg{
+    width: 100px;
+    height: 100px;
+}
+.flexbox {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 150px;
+}
+.flexbox .col {
+    width: 33.33%;
+    /* Or whatever */
+    max-height: 300px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 70%;
+margin: auto;
+}
+h2 {
+color: darkgoldenrod;
+}
+h3 {
+color: darkgoldenrod;
+}
+
+#expand1, #expand2, #expand3{
+    display: none; 
+    width: 100%;
+    height: auto;
+}
+#toggleSwitch_j, #StayOpen {
+ background-color: #cacaca;            
+}
+
+@media only screen and (max-width: 1024px) {
+h1 {
+font-size: 40px;
+font-family: sans-serif;
+font-weight: 500;
+color: darkgoldenrod;
+line-height: 1.3em;
+}
+h2 {
+font-size: 25px;
+font-family: sans-serif;
+color: darkgoldenrod;
+font-weight: 500;
+line-height: 1.2em;
+}
+h3 {
+font-size: 20px;
+font-family: sans-serif;
+color: lightgray;
+font-weight: 500;
+line-height: 1.2em;
+}
+p {
+font-size: 12px;
+font-family: sans-serif;
+color: black;
+line-height: 2em;
+}
+}
+@media only screen and (max-width: 600px) {
+h1 {
+font-size: 28px;
+font-family: sans-serif;
+color: darkgoldenrod;
+line-height: 1.3em;
+}
+}
