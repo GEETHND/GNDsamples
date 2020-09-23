@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/corel_bay</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">earth</property>
+    <mapping resource="hbm/Login.hbm.xml"/>
+    <mapping resource="hbm/MenuItem.hbm.xml"/>
+    <mapping resource="hbm/FoodItemOrder.hbm.xml"/>
+    <mapping resource="hbm/Bot.hbm.xml"/>
+    <mapping resource="hbm/Kot.hbm.xml"/>
+    <mapping resource="hbm/FoodOrder.hbm.xml"/>
+    <mapping resource="hbm/Rooms.hbm.xml"/>
+    <mapping resource="hbm/Menus.hbm.xml"/>
+    <mapping resource="hbm/BarItemOrder.hbm.xml"/>
+    <mapping resource="hbm/BarOrder.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

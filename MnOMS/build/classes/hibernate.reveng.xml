@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="corel_bay"/>
+  <table-filter match-name="food_order"/>
+  <table-filter match-name="bar_item_order"/>
+  <table-filter match-name="menus"/>
+  <table-filter match-name="login"/>
+  <table-filter match-name="bar_order"/>
+  <table-filter match-name="kot"/>
+  <table-filter match-name="bot"/>
+  <table-filter match-name="food_item_order"/>
+  <table-filter match-name="menu_item"/>
+  <table-filter match-name="rooms"/>
+</hibernate-reverse-engineering>

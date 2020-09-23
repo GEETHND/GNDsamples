@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2013 8:25:49 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="entity.Bot" table="bot" catalog="corel_bay">
+        <id name="ticketNo" type="int">
+            <column name="Ticket_no" />
+            <generator class="assigned" />
+        </id>
+        <property name="custNo" type="string">
+            <column name="Cust_no" length="4" not-null="true" />
+        </property>
+        <property name="venue" type="string">
+            <column name="Venue" length="10" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="Date" length="50" not-null="true" />
+        </property>
+        <property name="time" type="string">
+            <column name="Time" length="50" not-null="true" />
+        </property>
+        <property name="status" type="string">
+            <column name="Status" length="30" not-null="true" />
+        </property>
+        <set name="barItemOrders" inverse="true">
+            <key>
+                <column name="bot_Ticket_no" not-null="true" />
+            </key>
+            <one-to-many class="entity.BarItemOrder" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2013 8:25:49 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="entity.MenuItem" table="menu_item" catalog="corel_bay">
+        <id name="itemNo" type="string">
+            <column name="Item_no" length="3" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="menus" class="entity.Menus" fetch="select">
+            <column name="Menu_ID" length="3" not-null="true" />
+        </many-to-one>
+        <property name="price" type="string">
+            <column name="Price" length="3" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="Description" length="100" not-null="true" />
+        </property>
+        <property name="availability" type="string">
+            <column name="Availability" length="3" not-null="true" />
+        </property>
+        <set name="foodItemOrders" inverse="true">
+            <key>
+                <column name="Item_no" length="3" not-null="true" />
+            </key>
+            <one-to-many class="entity.FoodItemOrder" />
+        </set>
+        <set name="barItemOrders" inverse="true">
+            <key>
+                <column name="Item_no" length="3" not-null="true" />
+            </key>
+            <one-to-many class="entity.BarItemOrder" />
+        </set>
+    </class>
+</hibernate-mapping>

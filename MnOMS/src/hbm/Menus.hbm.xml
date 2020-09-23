@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2013 8:25:49 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="entity.Menus" table="menus" catalog="corel_bay">
+        <id name="menuId" type="string">
+            <column name="Menu_ID" length="3" />
+            <generator class="assigned" />
+        </id>
+        <property name="description" type="string">
+            <column name="Description" length="50" not-null="true" />
+        </property>
+        <property name="image" type="string">
+            <column name="Image" length="120" not-null="true" />
+        </property>
+        <set name="menuItems" inverse="true">
+            <key>
+                <column name="Menu_ID" length="3" not-null="true" />
+            </key>
+            <one-to-many class="entity.MenuItem" />
+        </set>
+    </class>
+</hibernate-mapping>

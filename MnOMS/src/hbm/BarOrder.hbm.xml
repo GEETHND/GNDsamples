@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 25, 2013 8:25:49 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="entity.BarOrder" table="bar_order" catalog="corel_bay">
+        <id name="botNo" type="java.lang.Integer">
+            <column name="bot_no" />
+            <generator class="identity" />
+        </id>
+        <property name="botTicketNo" type="int">
+            <column name="bot_Ticket_no" not-null="true" />
+        </property>
+        <property name="itemNo" type="string">
+            <column name="Item_no" length="3" not-null="true" />
+        </property>
+        <property name="qty" type="int">
+            <column name="Qty" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

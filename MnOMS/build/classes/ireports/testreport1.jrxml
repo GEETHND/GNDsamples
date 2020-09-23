@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="tick" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[2]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     food_order.`kot_Ticket_no` AS food_order_kot_Ticket_no,
+     food_order.`Item_no` AS food_order_Item_no,
+     food_order.`Qty` AS food_order_Qty,
+     menu_item.`Item_no` AS menu_item_Item_no,
+     cast(`Price` as unsigned) AS menu_item_Price,
+     menu_item.`Description` AS menu_item_Description
+FROM
+     `food_order` food_order,
+     `menu_item` menu_item
+where
+food_order.`kot_Ticket_no` =$P{tick}]]>
+	</queryString>
+	<field name="food_order_kot_Ticket_no" class="java.lang.Integer"/>
+	<field name="food_order_Item_no" class="java.lang.String"/>
+	<field name="food_order_Qty" class="java.lang.Integer"/>
+	<field name="menu_item_Item_no" class="java.lang.String"/>
+	<field name="menu_item_Price" class="java.math.BigInteger"/>
+	<field name="menu_item_Description" class="java.lang.String"/>
+	<variable name="var1" class="java.lang.Double">
+		<variableExpression><![CDATA[$F{food_order_Qty}*$F{menu_item_Price}]]></variableExpression>
+	</variable>
+	<group name="food_order_kot_Ticket_no">
+		<groupExpression><![CDATA[$F{food_order_kot_Ticket_no}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement x="19" y="9" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$F{food_order_kot_Ticket_no}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="20" y="17" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[menu_item_Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="181" y="0" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[menu_item_Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="321" y="0" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[food_order_Qty]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="20" y="63" width="19" height="4"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$F{menu_item_Price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="19" y="36" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{menu_item_Description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="44" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$F{menu_item_Price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="321" y="47" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$F{food_order_Qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="442" y="44" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.Double"><![CDATA[$V{var1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
