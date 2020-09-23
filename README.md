@@ -13,7 +13,7 @@ Below given is a breif description about the projects in this repository.
 
 #sis -- A volunteer project for the request of a teacher of mine
 
-# These projects were done using notepad++ and WAMP server.
+These projects were coded using notepad++ and WAMP was the server environment.
 
 ----------------------------------------------------------------------------------------
 
