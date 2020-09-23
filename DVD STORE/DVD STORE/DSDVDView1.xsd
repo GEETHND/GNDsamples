@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDVDView1" targetNamespace="http://tempuri.org/DSDVDView1.xsd" xmlns:mstns="http://tempuri.org/DSDVDView1.xsd" xmlns="http://tempuri.org/DSDVDView1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDVDView1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDVDView1" msprop:Generator_DataSetName="DSDVDView1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DVD" msprop:Generator_TableClassName="DVDDataTable" msprop:Generator_TableVarName="tableDVD" msprop:Generator_TablePropName="DVD" msprop:Generator_RowDeletingName="DVDRowDeleting" msprop:Generator_UserTableName="DVD" msprop:Generator_RowChangingName="DVDRowChanging" msprop:Generator_RowEvHandlerName="DVDRowChangeEventHandler" msprop:Generator_RowDeletedName="DVDRowDeleted" msprop:Generator_RowEvArgName="DVDRowChangeEvent" msprop:Generator_RowChangedName="DVDRowChanged" msprop:Generator_RowClassName="DVDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DVD_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnDVD_Id" msprop:Generator_ColumnPropNameInRow="DVD_Id" msprop:Generator_ColumnPropNameInTable="DVD_IdColumn" msprop:Generator_UserColumnName="DVD_Id" type="xs:int" />
+              <xs:element name="Format" msprop:Generator_ColumnVarNameInTable="columnFormat" msprop:Generator_ColumnPropNameInRow="Format" msprop:Generator_ColumnPropNameInTable="FormatColumn" msprop:Generator_UserColumnName="Format" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DVD" />
+      <xs:field xpath="mstns:DVD_Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSRentDVD1" targetNamespace="http://tempuri.org/DSRentDVD1.xsd" xmlns:mstns="http://tempuri.org/DSRentDVD1.xsd" xmlns="http://tempuri.org/DSRentDVD1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSRentDVD1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSRentDVD1" msprop:Generator_DataSetName="DSRentDVD1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Rental" msprop:Generator_TableClassName="RentalDataTable" msprop:Generator_TableVarName="tableRental" msprop:Generator_TablePropName="Rental" msprop:Generator_RowDeletingName="RentalRowDeleting" msprop:Generator_UserTableName="Rental" msprop:Generator_RowChangingName="RentalRowChanging" msprop:Generator_RowEvHandlerName="RentalRowChangeEventHandler" msprop:Generator_RowDeletedName="RentalRowDeleted" msprop:Generator_RowEvArgName="RentalRowChangeEvent" msprop:Generator_RowChangedName="RentalRowChanged" msprop:Generator_RowClassName="RentalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rental_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRental_Id" msprop:Generator_ColumnPropNameInRow="Rental_Id" msprop:Generator_ColumnPropNameInTable="Rental_IdColumn" msprop:Generator_UserColumnName="Rental_Id" type="xs:int" />
+              <xs:element name="Emp_Id" msprop:Generator_ColumnVarNameInTable="columnEmp_Id" msprop:Generator_ColumnPropNameInRow="Emp_Id" msprop:Generator_ColumnPropNameInTable="Emp_IdColumn" msprop:Generator_UserColumnName="Emp_Id" type="xs:int" />
+              <xs:element name="Customer_Id" msprop:Generator_ColumnVarNameInTable="columnCustomer_Id" msprop:Generator_ColumnPropNameInRow="Customer_Id" msprop:Generator_ColumnPropNameInTable="Customer_IdColumn" msprop:Generator_UserColumnName="Customer_Id" type="xs:int" />
+              <xs:element name="DVD_Id" msprop:Generator_ColumnVarNameInTable="columnDVD_Id" msprop:Generator_ColumnPropNameInRow="DVD_Id" msprop:Generator_ColumnPropNameInTable="DVD_IdColumn" msprop:Generator_UserColumnName="DVD_Id" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Payment_Rs" msprop:Generator_ColumnVarNameInTable="columnPayment_Rs" msprop:Generator_ColumnPropNameInRow="Payment_Rs" msprop:Generator_ColumnPropNameInTable="Payment_RsColumn" msprop:Generator_UserColumnName="Payment_Rs" type="xs:int" minOccurs="0" />
+              <xs:element name="Due_date" msprop:Generator_ColumnVarNameInTable="columnDue_date" msprop:Generator_ColumnPropNameInRow="Due_date" msprop:Generator_ColumnPropNameInTable="Due_dateColumn" msprop:Generator_UserColumnName="Due_date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Rental" />
+      <xs:field xpath="mstns:Rental_Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

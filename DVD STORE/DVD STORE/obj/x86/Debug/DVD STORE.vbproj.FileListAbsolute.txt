@@ -1,0 +1,82 @@
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\bin\Debug\DVD STORE.exe
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\bin\Debug\DVD STORE.pdb
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\bin\Debug\DVD STORE.xml
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_CustomerDetail.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_dvd.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Resources.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.vbproj.GenerateResource.Cache
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Fine.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_DvdCopyIssue.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_MovieDetails.resources
+c:\users\ps08-064\documents\visual studio 2010\Projects\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Returning.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+K:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.exe
+K:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.pdb
+K:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.xml
+K:\DVD STORE\DVD STORE\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Fine.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_DvdCopyIssue.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_MovieDetails.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_CustomerDetail.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Returning.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_dvd.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Resources.resources
+K:\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+H:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+H:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\bin\Debug\DVD STORE.exe
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\bin\Debug\DVD STORE.pdb
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\bin\Debug\DVD STORE.xml
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Fine.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_DvdCopyIssue.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_MovieDetails.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_CustomerDetail.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Returning.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_dvd.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Resources.resources
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Sameera\Desktop\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_HomePage.resources
+G:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+G:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+G:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+I:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+I:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+I:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.exe
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.xml
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD STORE.pdb
+D:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.exe
+D:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.pdb
+D:\DVD STORE\DVD STORE\bin\Debug\DVD STORE.xml
+D:\DVD STORE\DVD STORE\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_HomePage.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Fine.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_DvdCopyIssue.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_MovieDetails.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_CustomerDetail.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_Returning.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Form_dvd.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Resources.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.ViewCust.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DVD STORE\DVD STORE\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.ViewMovie.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.DVDStorage.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.DVDView.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Employee.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Login.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Add_New_Employee.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.Admin_View.resources
+D:\DVD STORE\DVD STORE\obj\x86\Debug\DVD_STORE.MovieSearch.resources

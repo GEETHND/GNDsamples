@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSViewMov1" targetNamespace="http://tempuri.org/DSViewMov1.xsd" xmlns:mstns="http://tempuri.org/DSViewMov1.xsd" xmlns="http://tempuri.org/DSViewMov1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSViewMov1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSViewMov1" msprop:Generator_DataSetName="DSViewMov1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Movie" msprop:Generator_TableClassName="MovieDataTable" msprop:Generator_TableVarName="tableMovie" msprop:Generator_TablePropName="Movie" msprop:Generator_RowDeletingName="MovieRowDeleting" msprop:Generator_UserTableName="Movie" msprop:Generator_RowChangingName="MovieRowChanging" msprop:Generator_RowEvHandlerName="MovieRowChangeEventHandler" msprop:Generator_RowDeletedName="MovieRowDeleted" msprop:Generator_RowEvArgName="MovieRowChangeEvent" msprop:Generator_RowChangedName="MovieRowChanged" msprop:Generator_RowClassName="MovieRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Movie_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnMovie_Id" msprop:Generator_ColumnPropNameInRow="Movie_Id" msprop:Generator_ColumnPropNameInTable="Movie_IdColumn" msprop:Generator_UserColumnName="Movie_Id" type="xs:int" />
+              <xs:element name="DVD_Id" msprop:Generator_ColumnVarNameInTable="columnDVD_Id" msprop:Generator_ColumnPropNameInRow="DVD_Id" msprop:Generator_ColumnPropNameInTable="DVD_IdColumn" msprop:Generator_UserColumnName="DVD_Id" type="xs:int" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Director" msprop:Generator_ColumnVarNameInTable="columnDirector" msprop:Generator_ColumnPropNameInRow="Director" msprop:Generator_ColumnPropNameInTable="DirectorColumn" msprop:Generator_UserColumnName="Director" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Actor1" msprop:Generator_ColumnVarNameInTable="columnActor1" msprop:Generator_ColumnPropNameInRow="Actor1" msprop:Generator_ColumnPropNameInTable="Actor1Column" msprop:Generator_UserColumnName="Actor1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Actor2" msprop:Generator_ColumnVarNameInTable="columnActor2" msprop:Generator_ColumnPropNameInRow="Actor2" msprop:Generator_ColumnPropNameInTable="Actor2Column" msprop:Generator_UserColumnName="Actor2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Language" msprop:Generator_ColumnVarNameInTable="columnLanguage" msprop:Generator_ColumnPropNameInRow="Language" msprop:Generator_ColumnPropNameInTable="LanguageColumn" msprop:Generator_UserColumnName="Language" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rating" msprop:Generator_ColumnVarNameInTable="columnRating" msprop:Generator_ColumnPropNameInRow="Rating" msprop:Generator_ColumnPropNameInTable="RatingColumn" msprop:Generator_UserColumnName="Rating">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Genre" msprop:Generator_ColumnVarNameInTable="columnGenre" msprop:Generator_ColumnPropNameInRow="Genre" msprop:Generator_ColumnPropNameInTable="GenreColumn" msprop:Generator_UserColumnName="Genre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Release_year" msprop:Generator_ColumnVarNameInTable="columnRelease_year" msprop:Generator_ColumnPropNameInRow="Release_year" msprop:Generator_ColumnPropNameInTable="Release_yearColumn" msprop:Generator_UserColumnName="Release_year" type="xs:int" minOccurs="0" />
+              <xs:element name="Duration" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnPropNameInTable="DurationColumn" msprop:Generator_UserColumnName="Duration" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Poster" msprop:Generator_ColumnVarNameInTable="columnPoster" msprop:Generator_ColumnPropNameInRow="Poster" msprop:Generator_ColumnPropNameInTable="PosterColumn" msprop:Generator_UserColumnName="Poster" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Movie" />
+      <xs:field xpath="mstns:Movie_Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

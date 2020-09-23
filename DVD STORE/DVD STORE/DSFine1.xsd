@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSFine1" targetNamespace="http://tempuri.org/DSFine1.xsd" xmlns:mstns="http://tempuri.org/DSFine1.xsd" xmlns="http://tempuri.org/DSFine1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSFine1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSFine1" msprop:Generator_DataSetName="DSFine1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Rental" msprop:Generator_TableClassName="RentalDataTable" msprop:Generator_TableVarName="tableRental" msprop:Generator_TablePropName="Rental" msprop:Generator_RowDeletingName="RentalRowDeleting" msprop:Generator_UserTableName="Rental" msprop:Generator_RowChangingName="RentalRowChanging" msprop:Generator_RowEvHandlerName="RentalRowChangeEventHandler" msprop:Generator_RowDeletedName="RentalRowDeleted" msprop:Generator_RowEvArgName="RentalRowChangeEvent" msprop:Generator_RowChangedName="RentalRowChanged" msprop:Generator_RowClassName="RentalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Due_date" msprop:Generator_ColumnVarNameInTable="columnDue_date" msprop:Generator_ColumnPropNameInRow="Due_date" msprop:Generator_ColumnPropNameInTable="Due_dateColumn" msprop:Generator_UserColumnName="Due_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Returned_date" msprop:Generator_ColumnVarNameInTable="columnReturned_date" msprop:Generator_ColumnPropNameInRow="Returned_date" msprop:Generator_ColumnPropNameInTable="Returned_dateColumn" msprop:Generator_UserColumnName="Returned_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Fine_payment" msprop:Generator_ColumnVarNameInTable="columnFine_payment" msprop:Generator_ColumnPropNameInRow="Fine_payment" msprop:Generator_ColumnPropNameInTable="Fine_paymentColumn" msprop:Generator_UserColumnName="Fine_payment" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
