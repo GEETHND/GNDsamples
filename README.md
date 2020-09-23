@@ -6,6 +6,7 @@ Below given is a breif description about the projects in this repository.
  
 #IMS -- Final year project component for MIT in University of Colombo School of Computing
 
+#MnOMS -- Final year project component for BIT in University of Colombo School of Computing
 
 #mrcric --  A fun project for a friend as client 
 
