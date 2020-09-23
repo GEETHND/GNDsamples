@@ -1,0 +1,73 @@
+function formQualification(dsp) {
+
+    str = "";
+    var title="Record a qualification of an employee";
+    var keyDisabled = fieldDisabled = "";
+
+    if(dsp == "addQualification" || dsp == "updateQualification" || dsp == "deleteQualification") {
+
+        if(dsp == "updateQualification" || dsp == "deleteQualification"){
+            title = "Update Qualification";
+				
+            if(dsp == "deleteQualification"){
+                title = "Delete Qualification";
+                fieldDisabled = "Disabled";
+            }
+
+            keyDisabled = "Disabled";
+
+            if(hrms["selectedEmployee"] != ""){
+                hrms["employeeCode"] = hrms["selectedEmployee"].substring(0,10);
+                hrms["employeeTitle"] = hrms["selectedEmployee"].substring(11,(hrms["selectedEmployee"].length));
+            }
+        }
+        str  = "<div id='addQualification'>";
+		str += '<form name="maintainEmployeeQ" method="POST">';
+        str += "<table align='center' border='1' ><tr><td>"
+        str += '<h2 align="center">'+title+'</h2><hr>';
+        str += '<form name="maintainEmployee" method="POST">';
+        //begining of the form
+
+	 str += "<b>Employee No: &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;</b><input type='text' name='employeeNo' value= '"+hrms["employeeNo"].trim()+"' style='width:100px; height:20px;' maxlength='10' "+fieldDisabled+" onchange='hrms[this.name]=this.value'><br><br>";
+
+	str += "<b>University: &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</b><input type='text' name='university' value= '"+hrms["university"].trim()+"' style='width:100px; height:20px;'  "+fieldDisabled+" onchange='hrms[this.name]=this.value'><br><br>";
+	
+	str += "<b>Duration: &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;</b><input type='text' name='duration' value= '"+hrms["duration"].trim()+"' style='width:100px; height:20px;'  "+fieldDisabled+" onchange='hrms[this.name]=this.value'><br><br>";
+
+	str += "<b>Degree: &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;</b><input type='text' name='degree' value= '"+hrms["degree"].trim()+"' style='width:80px; height:20px;'  "+fieldDisabled+" onchange='hrms[this.name]=this.value'><br><br>";
+	
+	
+        		
+	str += "<div id='dateofapp' style='width:200px;float:left;'><b>Effective Date:</div></b>";
+        str += "<select name='dateofappYYYY' value='dateofappYYYY' style=' width:60px' onchange='hrms[this.name]=this.value;'>";
+        str += generateNumberOptions(1980, 2020, 4, hrms['dateofappYYYY']);
+        str += "</select>&nbsp;/&nbsp;";
+        str += "<select name='dateofappMM' value='dateofappMM' style=' width:40px' onchange='hrms[this.name]=this.value;'>";
+        str += generateNumberOptions(1, 12, 2, hrms['dateofappMM']);
+        str += "</select>&nbsp;/&nbsp;";
+        str += "<select name='dateofappDD' value='dateofappDD' style=' width:45px' onchange='hrms[this.name]=this.value;'>";
+        str += generateNumberOptions(1, 31, 2, hrms['dateofappDD']);
+        str += "</select></div><br><br>";
+		
+		
+		if(dsp == "addQualification"){
+            str += '<input type="submit" value="Save" onclick=validate("addQualification")>';
+        } else if(dsp == "updateQualification") {
+            str += '<input type="submit" value="Update" onclick=validate("updateQualification")>';
+        } else {
+            str += '<input type="submit" value="Delete" onclick=sendForm("deleteQualification")>';
+        }
+
+        str += '<input type="button" value = "Back" onclick = showMenu("maintainemployee")>'
+        str += '</form>';
+        str += '</td></tr></table>';
+        str += "</form></div>";
+			
+			
+    }
+    str += "<div id='msgEmployee'></div>";
+		
+    //to be removed
+    document.getElementById("formArea").innerHTML=str;
+    return str;
+}

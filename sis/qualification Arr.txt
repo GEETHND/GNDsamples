@@ -1,0 +1,21 @@
+var qualificationIdArr = new Array();
+var employeeNoArr = new Array();
+var universityArr = new Array();
+var durationArr = new Array();
+var degreeArr = new Array();
+
+
+
+if(xml.getElementsByTagName("record")[i].getAttribute("qualificationId") != null){
+			alert("awaaa");
+			alert(xml.getElementsByTagName("record")[i].getAttribute("university"));
+				qualificationIdArr[qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("qualificationId");
+				employeeNoArr[qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("employeeNo");
+				universityArr[qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("university");
+				durationArr [qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("duration");
+				degreeArr [qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("degree");
+				dateofappYYYYArr [qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("dateofappYYYY");
+				dateofappMMArr[qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("dateofappMM");
+				dateofappDDArr [qualificationsLength] = xml.getElementsByTagName("record")[i].getAttribute("dateofappDD");
+				qualificationsLength++;
+			}

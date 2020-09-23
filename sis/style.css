@@ -1,0 +1,64 @@
+
+	[type=text]
+	{
+		background-color:#ffdd99;
+	}
+
+	form
+	{
+		background-color:#f8f8f8;
+	}
+
+	table 
+	{
+		border-color: #993300;
+		
+	}
+
+/********************************************
+
+
+	h1,h3 {
+		color: #3366CC;
+		font-weight: normal;
+		letter-spacing: 0em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		line-height:0em;
+	}
+
+
+	form h4 {
+		font-weight: normal;
+	}
+
+	form h5 {
+		float: left;
+	}
+
+
+	form pre {
+		float: left;
+		font-family: Arial;
+		font-size: medium;
+		font-weight: normal;
+		font-style: normal;
+	}
+***********************************************/
+
+	form input[type="button"] {
+		background-color: #eeedec;
+	}
+
+/***************************************************
+	table {
+		background-color: #ffffff;
+		border: 1px solid #dddddd;
+		empty-cells:show;
+		margin: 0 0 20px 0;
+		padding: 10px;
+		text-align: left;
+		width: 800px;
+	}
+****************************************************/
+

@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        ".cloud": true,
+        ".vscode": true,
+        "**/*.js": true,
+        "hooks": true,
+        "node_modules": true,
+        "platforms": true
+    },
+    "editor.wordWrap": "on"
+}
